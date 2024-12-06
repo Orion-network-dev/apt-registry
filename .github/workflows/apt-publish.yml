@@ -11,7 +11,7 @@ env:
   REPO_NAME: orion
   CODENAME: bookworm
   COMPONENTS: main
-  ARCHITECTURES: amd64 arm64 i386
+  ARCHITECTURES: amd64 arm64 i386 armhf riscv64
 
 jobs:
   build:
